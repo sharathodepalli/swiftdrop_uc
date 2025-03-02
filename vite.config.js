@@ -9,5 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-
+  base: '/swiftdrop_uc/', // ✅ This must match your GitHub repository name
 });
