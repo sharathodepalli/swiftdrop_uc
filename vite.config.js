@@ -1,13 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/swiftdrop_uc/', // ✅ Ensure this matches your GitHub repo name exactly
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': '/src', // ✅ Use Vite's alias format instead of Node's `path.resolve`
     },
   },
-  base: '/swiftdrop_uc/', // ✅ This must match your GitHub repository name
 });
