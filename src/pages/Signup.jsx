@@ -245,11 +245,11 @@ function Signup() {
         <div className="absolute inset-0 w-full h-full bg-black bg-opacity-60"></div>
 
         
-        <div className="absolute top-6 left-10 flex items-center z-10">
+        {/* <div className="absolute top-6 left-10 flex items-center z-10">
           <Link to="/" className="text-2xl font-bold text-white hover:text-yellow-400 transition">
             SwiftDrop 🚀
           </Link>
-        </div>
+        </div> */}
 
         
         <div className="relative z-10 bg-white bg-opacity-20 p-8 rounded-lg shadow-lg w-full max-w-md backdrop-blur-md">

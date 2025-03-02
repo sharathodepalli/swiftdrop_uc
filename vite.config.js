@@ -9,5 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/swiftdrop_uc/', // 👈 Add this line for GitHub Pages
+
 });
