@@ -3,6 +3,8 @@ import { useAuth } from "../contexts/AuthContext";
 import { createDelivery } from "../services/deliveryService";
 import { useNavigate } from "react-router-dom";
 import { Timestamp } from "firebase/firestore";
+import videoSrc from "../assets/createdelivery.mp4"; // ✅ Import Video Background
+
 
 function CreateDelivery() {
   const { user } = useAuth();
@@ -589,3 +591,4 @@ console.log("pickup in createDelvery:", cleanData(formattedData.pickup.date));
 }
 
 export default CreateDelivery;
+
